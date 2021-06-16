@@ -32,10 +32,10 @@ jobs:
       
     - name: Android
       run: |
-        cd xamarin tictactoe
+        cd xamarin\ tictactoe
         nuget restore
-        cd xamarin tictactoe.Android
-        msbuild xamarin tictactoe.Android.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
+        cd xamarin\ tictactoe.Android
+        msbuild xamarin\ tictactoe.Android.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
   iOS:
 
     runs-on: macos-latest
