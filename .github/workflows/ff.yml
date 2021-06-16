@@ -1,0 +1,6 @@
+name: "GitHub Actions Shell"
+
+jobs:
+    steps:
+    - uses: fahimshahrierrasel/Xamarin-Droid-Builder@1.0.2
+    
